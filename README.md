@@ -24,6 +24,7 @@ python manage.py runserver
 ```
 
 **📚 API**
+
 Method | Endpoint | Description
 POST | /transaction/ | Create a new transaction
 GET | /transaction/<id>/ | Get transaction details
