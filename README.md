@@ -1,4 +1,4 @@
-**# ARCHA CODING CHALLENGE**
+## ARCHA CODING CHALLENGE
 
 **Coding Task:** Transaction Management API
 **Objective:**
@@ -12,7 +12,6 @@
 - ✅ REST API with Django
 - Persistent data using Django db.sqlite3
 
-
 ## 🛠️ Installation
 
 ```bash
@@ -23,13 +22,15 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-**📚 API**
+## 📚 API Endpoints
 
-Method | Endpoint | Description
-POST | /transaction/ | Create a new transaction
-GET | /transaction/<id>/ | Get transaction details
+| Method | Endpoint             | Description                                |
+|--------|----------------------|--------------------------------------------|
+| `POST` | `/transactions/`      | Create a new transaction                  |
+| `GET`  | `/transactions/{id}/` | Get details for a transaction by ID        |
 
-**🧪 Running Tests**
+## 🧪 Running Tests
+
 ```bash
 python manage.py test
 ```
