@@ -10,8 +10,8 @@
 ## 🚀 Features
 
 - ✅ REST API with Django
-- 🔐 JWT Authentication
-- 📦 Dockerized for development
+- Persistent data using Django db.sqlite3
+
 
 ## 🛠️ Installation
 
